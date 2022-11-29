@@ -1,4 +1,4 @@
-#include "CDraw.h"
+#include "CDraw.hpp"
 #include <cmath>
 
 /* Function that returns -1,0,1 depending on whether x */

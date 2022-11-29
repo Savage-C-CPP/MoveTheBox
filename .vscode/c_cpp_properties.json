@@ -9,8 +9,10 @@
             "includePath": [
                 "/usr/include/SDL2/**",
                 "${workspaceFolder}/sources/**",
-                "${workspaceFolder}/include/**"
-            ]
+                "${workspaceFolder}/include/**",
+                "${workspaceFolder}/GTest/**"
+            ],
+            "configurationProvider": "ms-vscode.cmake-tools"
         }
     ],
     "version": 4

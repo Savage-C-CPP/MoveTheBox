@@ -1,4 +1,4 @@
-#include "CDraw.h"
+#include "CDraw.hpp"
 
 void CDraw::DrawCircle(SDL_Renderer *renderer, int centreX, int centreY, int radius, bool fill)
 {

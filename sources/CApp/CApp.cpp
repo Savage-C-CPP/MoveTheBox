@@ -1,11 +1,9 @@
-#include "CApp.h"
+#include "CApp.hpp"
 
 CApp::CApp()
 {
     Window = nullptr;
     Surface = nullptr;
-
-    // Пользователь вводит (w_w, w_h), kx, ky, lide_radius
 
     w_w = 800;
     w_h = 600;

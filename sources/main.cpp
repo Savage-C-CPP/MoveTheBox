@@ -1,5 +1,5 @@
 #define SDL_MAIN_HANDLED
-#include "CApp.h"
+#include "CApp.hpp"
 
 int main(int argc, char **argv)
 {

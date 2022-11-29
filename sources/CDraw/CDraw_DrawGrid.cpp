@@ -1,4 +1,4 @@
-#include "CDraw.h"
+#include "CDraw.hpp"
 
 void CDraw::DrawGrid(SDL_Renderer *renderer, int x_start, int y_start, int x_end, int y_end, int cell_width, int cell_height)
 {

@@ -3,6 +3,8 @@ CMakeFiles/
 CMakeCache.txt
 *.cmake
 
+build/
+
 # Visual Studio
 .vs/
 *.sln
@@ -23,3 +25,4 @@ obj/
 
 # Libs
 SDL*
+GTest

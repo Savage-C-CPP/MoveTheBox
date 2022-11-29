@@ -1,4 +1,4 @@
-#include "CDraw.h"
+#include "CDraw.hpp"
 #include <cmath>
 
 void CDraw::DrawNStar(SDL_Renderer *renderer, int n, double rad, int x, int y)

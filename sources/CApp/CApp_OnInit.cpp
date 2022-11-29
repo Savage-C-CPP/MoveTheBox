@@ -1,4 +1,4 @@
-#include "CApp.h"
+#include "CApp.hpp"
 
 bool CApp::OnInit()
 {
@@ -19,8 +19,5 @@ bool CApp::OnInit()
         return false;
 
     Renderer = SDL_CreateRenderer(Window, -1, SDL_RENDERER_ACCELERATED);
-    // Black background
-    SDL_SetRenderDrawColor(Renderer, 0, 0, 0, 0xFF);
-    SDL_RenderClear(Renderer);
     return true;
 }
